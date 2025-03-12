@@ -32,6 +32,12 @@ form {
     margin-top: 10px;
 }
 
+label {
+    width: 100%;
+    text-align: start;
+    padding-left: 40px;
+}
+
 .container-inputs input {
     width: 100%;
     max-width: 400px; /* Defini um tamanho máximo */
