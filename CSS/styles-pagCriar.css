@@ -35,8 +35,7 @@ form {
 label {
     width: 100%;
     text-align: start;
-    padding-left: 40px;
-    margin-top: 7px;
+    margin: 7px 0 2px 30px;
 }
 
 .container-inputs input {
@@ -51,6 +50,8 @@ label {
 
 .input-submit input {
     background-color: #007bff;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: white;
     border: none;
     cursor: pointer;
