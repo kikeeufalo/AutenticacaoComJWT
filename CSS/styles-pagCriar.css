@@ -35,7 +35,9 @@ form {
 label {
     width: 100%;
     text-align: start;
-    margin: 7px 0 2px 30px;
+    margin: 5px 0 2px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400
 }
 
 .container-inputs input {
@@ -63,5 +65,16 @@ label {
 }
 
 .input-submit p {
-    margin-top: 10px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.input-submit p a {
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.input-submit p a:hover {
+    color: rgb(1, 13, 175);
 }
