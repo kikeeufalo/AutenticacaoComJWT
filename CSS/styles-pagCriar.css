@@ -34,15 +34,17 @@ form {
 
 label {
     width: 100%;
+    max-width: 700px;
+    min-width: 100px;
     text-align: start;
-    margin: 5px 0 2px 30px;
+    padding: 5px 0 2px 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .container-inputs input {
     width: 100%;
-    max-width: 400px; /* Defini um tamanho máximo */
+    max-width: 700px; /* Defini um tamanho máximo */
     min-width: 100px;
     padding: 10px;
     font-size: 16px;
