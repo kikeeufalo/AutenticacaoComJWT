@@ -92,9 +92,9 @@ label {
 
 .input-submit p a {
     text-decoration: none;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .input-submit p a:hover {
-    color: rgb(1, 13, 175);
+    color: rgb(0, 136, 170);
 }
