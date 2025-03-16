@@ -10,27 +10,27 @@
 </head>
 <body>
     <div class="container">
-        <form action="#" autocomplete="off">
+        <form id="cadastro" autocomplete="off">
             <div class="container-inputs">
                 <h1>Criar conta</h1>
                 <div class="input-name">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" placeholder="Insira seu nome completo">
+                    <input type="text" id="nome" placeholder="Insira seu nome completo" required>
                 </div>
                 <div class="input-email">
                     <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Insira um email valido">
+                    <input type="email" id="email" placeholder="Insira um email valido" required>
                 </div>
                 <div class="input-senha">
                     <label for="senha">Defina uma Senha</label>
-                    <input type="password" placeholder="Digite sua senha">
+                    <input id="senha" type="password" placeholder="Digite sua senha" required>
                 </div>
                 <div class="input-submit">
                     <input type="submit" value="Criar" id="input-criar-conta">
                     <p>Já possui uma conta? <a href="./pag/entrar.html">Entrar</a></p>
                 </div>
             </div>
-            <script src="./JS/scripts.js"></script>
+            <script src="./JS/cadastro.js"></script>
 
             <!-- criação de um formulario para fazer uma verificação com JWT -->
         </form>
