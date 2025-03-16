@@ -1,6 +1,4 @@
-const x = document.querySelector('#input-entrar')
-
-x.addEventListener('click', function() {
+document.querySelector('#input-entrar').addEventListener('click', function() {
     async function login() {
         const resposta = await fetch('http://localhost:3000/login', {
             method: 'POST'
