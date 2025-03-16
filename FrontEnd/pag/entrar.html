@@ -10,22 +10,25 @@
 </head>
 <body>
     <div class="container">
-        <form action="#" autocomplete="off">
+        <form id="login" autocomplete="off">
             <div class="container-inputs">
                 <h1>Entrar aqui</h1>
                 <div class="input-name">
-                    <label for="nome">Nome ou  E-mail</label>
-                    <input type="text" id="nome" placeholder="Insira seu E-mail:">
+                    <label for="nome">Nome ou E-mail</label>
+                    <input type="text" id="nome-email" placeholder="Insira seu Nome ou E-mail:" required>
                 </div>
                 <div class="input-senha">
                     <label for="senha">Defina uma Senha</label>
-                    <input type="password" placeholder="Insira sua Senha:">
+                    <input type="password" id="senha" placeholder="Insira sua Senha:" required>
                 </div>
                 <div class="input-submit">
                     <input type="submit" value="Entrar" id="input-entrar">
                     <p>Não possui uma conta? <a href="../index.html">Criar</a></p>
                 </div>
             </div>
+            <!-- Entrar na conta -->
+
+            <script src="../JS/login.js"></script>
 
             <!-- criar um formulario para fazer uma verificação com JWT -->
         </form>
