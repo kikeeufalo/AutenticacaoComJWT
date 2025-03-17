@@ -81,7 +81,7 @@ const verifyToken = (req, res, next) => {
     } catch (err) {
         res.status(401).json({ message: "Token inválido" })
     }
-}
+} 
 
 // Rota protegida
 app.get("/perfil", verifyToken, (req, res) => {
