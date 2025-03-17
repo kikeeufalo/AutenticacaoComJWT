@@ -14,6 +14,7 @@ document.getElementById('login').addEventListener('submit', async function (even
         const data = await res.json()
         if (res.ok) {
             localStorage.setItem("token", data.token) // Salvando o token
+            window.location.href = '../pag/perfil.html'
         } else {
             alert("Erro: " + data.message)
         }
